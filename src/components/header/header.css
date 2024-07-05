@@ -49,6 +49,7 @@
   }
   .nav{
     height: var(--header-height);
+    background-color: #fff;
   }
   .nav__menu{
     position: fixed;
@@ -66,6 +67,7 @@
 
   .show-menu{
     bottom: 0;
+    background-color: #fff;
     
   }
 
@@ -73,6 +75,7 @@
     display:grid;
     grid-template-columns: repeat(3,1fr);
     gap: 2rem;
+    
 }
 
 .nav__icon{
