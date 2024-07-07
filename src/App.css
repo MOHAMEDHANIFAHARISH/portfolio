@@ -7,11 +7,11 @@
  /*color*/
   --hue: 0;
   --sat:0;
-  --tittle-color:hsl(var(--hue), var(--sat),20%);
-  --tittle-color-dark:hsl(var(--hue),var(--sat),0%);
-  --text-color:hsl(var(--hue),var(--sat),46%);
-  --body-color:hsl(var(--hue),var(--sat),98%);
-  --container-color:#ffffff;
+  --title-color:#fff;
+  --title-color-dark:#dcdcdc;
+  --text-color:#fff;
+  --body-color:#000;
+  --container-color:#101010;
 
   /*font and typograpy*/
   --body-font:"Poppins",sans-serif;
@@ -86,7 +86,7 @@ body{
   color: var(--text-color);
 }
 h1,h2,h3{
-  color: var(--tittle-color);
+  color: var(--title-color);
   font-weight: var(--font-semi-bold);
 }
 ul{
@@ -108,9 +108,10 @@ img{
   height: auto;
 }
 
-.section__tittle{
+.section__title{
   font-size: var(--h1-font-size);
-  color: var(--tittle-color);
+  color: var(--title-color);
+  margin-top: 3rem;
 }
 
 .section__subtitle{
@@ -119,7 +120,7 @@ img{
   margin-bottom: 4rem;
 }
 
-.section__tittle,.section__subtitle{
+.section__title,.section__subtitle{
 text-align: center;
 }
 
@@ -135,48 +136,37 @@ text-align: center;
 
 .button{
   display: inline-block;
-  background-color: var(--tittle-color);
+  background-color: #dedede;
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
-  font-weight: var(--font-medium);
+  font-weight: var(--font-semi-bold);
 
 }
 
 .button:hover{
-  background-color: var(--tittle-color-dark);
+  background-color: rgb(255, 255, 255);
+  color: #000000;
 }
 
 .button__icon{
    margin-left: var(--mb-0-5);
+  
 }
 .button--flex{
   display: inline-flex;
   align-items: center;
 }
 
-/*for large display*/
+/* =====breakpoint===== 
+
+/*for large display
  @media  screen and (max-width:992px) {
-  .container{
-    margin-left: var(--mb-1-5);
-    margin-right: var(--mb-1-5);
-  }
-
-  .button{
-    padding: 1rem 1.75rem;
-
-  }
-
-  .button__icon{
-     width: 22px;
-     height: 22px;
-  }
+  
  }
-/*for medium display*/
+/*for medium display
  @media screen and (max-width:768px){
-  .section{
-    padding: 2rem 0 4rem;
-  }
+ 
  }
 
 
@@ -184,14 +174,8 @@ text-align: center;
   
  }
 
- /*for small display*/
+ /*for small display
  @media screen and (max-width:350px) {
-  :root{
-    --big-font-size:2.25rem;
-  }
-  .container{
-    margin-left: var(--mb-1);
-    margin-right: var(--mb-1);
-  }
- }
+
+ } */
  
