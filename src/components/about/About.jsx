@@ -1,7 +1,7 @@
 import React from 'react'
 import "./about.css"
 import AboutImg from"../../assets/profile.png";
-import CV from "../../assets/resume.pdf";
+import CV from "../../assets/MohamedHanifaHarish.pdf";
 import Info from './Info';
 
 
@@ -21,7 +21,7 @@ const About = () => {
 
         Excellent written and verbal communication skills.
         </p>
-        <a download="" href={CV} className="button button--flex">Download CV 
+        <a download="Mohamed Hanifa Haish - Resume" href={CV} className="button button--flex">Download CV 
             <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
