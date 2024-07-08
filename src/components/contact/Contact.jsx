@@ -40,7 +40,7 @@ const Contact = () => {
                     </div>
 
                     <div className="contact__card">
-                        <i className="bx bx-mail-send contact__card-icon"></i>
+                        <i className="uil uil-map-marker contact__card-icon"></i>
 
                         <h3 className="contact__card-title">Address</h3>
                         <span className="contact__card-data">Kumbakonam</span>
