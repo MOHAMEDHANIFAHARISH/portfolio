@@ -15,12 +15,12 @@ const Qualification = () => {
 
         <div className="qualification__container container">
             <div className="qualification__tabs">
-                <div className={toggleState===1 ? "qualification__button qualifaction__active button--flex":"qualification__button button--flex"} onClick={()=> toggleTab(1)}>
+                <div className={toggleState===1 ? "qualification__button qualification__active button--flex":"qualification__button button--flex"} onClick={()=> toggleTab(1)}>
                     <i className="bx bxs-graduation qualification__icon"></i>
                    Education
                 </div>
-
-                <div className={toggleState===2 ? "qualification__button qualifaction__active button--flex":"qualification__button button--flex"} onClick={()=> toggleTab(2)}>
+            
+                <div className={toggleState===2 ? "qualification__button qualification__active button--flex":"qualification__button button--flex"} onClick={()=> toggleTab(2)}>
                 <i class="uil uil-award"></i>
                     Certification
                 </div>
