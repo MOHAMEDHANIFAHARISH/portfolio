@@ -41,6 +41,11 @@
     width: wrap;
 }
 
+.box__link{
+    text-decoration: none;
+    color: var(--title-color);
+}
+
 /*for large display*/
 @media  screen and (max-width:992px) {
     .about__container{

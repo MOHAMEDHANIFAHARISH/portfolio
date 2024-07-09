@@ -18,8 +18,11 @@
     
 }
 .home__social-icon:hover{
-    font-size: 1.3rem;
-    color: var(--title-color-dark); 
+    
+    color: var(--body-color); 
+    background-color: var(--title-color);
+    border-radius:0.3rem;
+   
 }
 
 .home__title{
